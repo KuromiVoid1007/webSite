@@ -9,9 +9,7 @@
     </style>
     <link
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
-
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -32,23 +30,41 @@
 
 <div class="main">
 
+<!-- Swiper-->
 <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">Баннер 1</div>
-      <div class="swiper-slide">Баннер 2</div>
-      <div class="swiper-slide">Баннер 3</div>
-      <div class="swiper-slide">Баннер 4</div>
+      <div class="swiper-slide">
+        <a href="">
+            <img src="img/fullcard.jpg" alt="Баннер 1">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="">
+            <img src="img/fullcard.jpg" alt="Баннер 2">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="">
+            <img src="img/fullcard.jpg" alt="Баннер 3">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="">
+            <img src="img/fullcard.jpg" alt="Баннер 4">
+        </a>
+      </div>
     </div>
   </div>
+<!-- Swiper-->
 
     <div class="categories">
-        <button class="active">Футболки</button>
-        <button>Лонгсливы</button>
-        <button>Худи</button>
-        <button>Брюки</button>
-        <button>Аксессуары</button>
+        <button onclick="scrollToSection('Tshort')">Футболки</button>
+        <button onclick="scrollToSection('longsleeve')">Лонгсливы</button>
+        <button onclick="scrollToSection('hoodies')">Худи</button>
+        <button onclick="scrollToSection('trousers')">Брюки</button>
+        <button onclick="scrollToSection('accessories')">Аксессуары</button>
     </div>
-
+<div id="Tshort" class="set-item Tshort">
     <section class="section">
         <div class="products">
             <div class="product">
@@ -98,6 +114,140 @@
             </div>
         </div>
     </section>
+</div>
+
+<div id="longsleeve" class="set-item longsleeve">
+    <section class="sectionTwo">
+        <div class="products">
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionTwo">
+        <div class="products">
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="hoodies" class="set-item hoodies">
+    <section class="sectionTwo">
+        <div class="products">
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="trousers" class="set-item trousers">
+    <section class="sectionTwo">
+        <div class="products">
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="accessories" class="set-item accessories">
+    <section class="sectionTwo">
+        <div class="products">
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+            <div class="product">
+                <img src="img\products.jpg" alt="Product">
+                <p>XS/S, M/L, XL/XXL</p>
+                <p>$100</p>
+            </div>
+        </div>
+    </section>
+</div>
 
     <section class="section">
         <img src="#" alt="Owners" style="width:100%; max-width:600px; display:block; margin:0 auto;">
@@ -106,7 +256,7 @@
 </div>
 <footer class="footer">
     <p>NAEBSHIKI 2024 - ???</p>
-    <p>+7 (724) 777-10-07</p>
+    <p>+7 (777) 777-10-07</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

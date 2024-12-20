@@ -6,10 +6,19 @@ const swiper = new Swiper('.swiper-container', {
     simulateTouch: true,     // Поддержка перетаскивания слайдов мышью
     touchEventsTarget: 'container', // На контейнере происходит перетаскивание
     autoplay: {
-      delay: 5000,           // Задержка между переключениями (в миллисекундах)
+      delay: 7000,           // Задержка между переключениями (в миллисекундах)
     },
     
     // Отключаем элементы навигации и пагинацию
     navigation: false,
     pagination: false,
   });
+
+
+  function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    window.scrollTo({
+      top: section.offsetTop,
+      behavior: 'smooth'
+    });
+  }
