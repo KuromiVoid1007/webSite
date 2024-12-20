@@ -7,6 +7,11 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,22 +31,15 @@
 <div class="line-horizontal"></div>
 
 <div class="main">
-    <section class="scroll-container">
-        <div class="scroll-content">
-            <div class="card">
-                <img src="img\card.png" alt="Card 1">
-            </div>
-            <div class="card">
-                <img src="img\card.png" alt="Card 2">
-            </div>
-            <div class="card">
-                <img src="img\card.png" alt="Card 3">
-            </div>
-            <div class="card">
-                <img src="img\card.png" alt="Card 4">
-            </div>
-        </div>
-    </section>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Баннер 1</div>
+      <div class="swiper-slide">Баннер 2</div>
+      <div class="swiper-slide">Баннер 3</div>
+      <div class="swiper-slide">Баннер 4</div>
+    </div>
+  </div>
 
     <div class="categories">
         <button class="active">Футболки</button>
@@ -75,15 +73,6 @@
             </div>
         </div>
     </section>
-
-
-
-    <div class="line-horizontal"></div>
-    <div class="marquee">
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</span>
-    </div>
-    <div class="line-horizontal"></div>
-
 
     <section class="sectionTwo">
         <div class="products">
@@ -120,5 +109,7 @@
     <p>+7 (724) 777-10-07</p>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
